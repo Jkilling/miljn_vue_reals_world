@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link :to="{ name: 'event-list' }">List</router-link>
+
+      <router-link :to="{ name: 'event-create' }">Create</router-link>
     </div>
     <router-view />
   </div>
@@ -15,6 +16,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+h1 {
+  font-size: 65px;
 }
 
 #nav {
