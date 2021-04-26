@@ -1,24 +1,15 @@
 # real-world-vue
 
-## Project setup
+## Project pushing for idiots
+
 ```
-npm install
+git add .
 ```
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+git commit -m "hier könnte ihre Werbung stehen"
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+git push miljn master
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
