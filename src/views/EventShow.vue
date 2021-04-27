@@ -12,6 +12,7 @@
     <p>{{ event.description }}</p>
     <h2>
       Attendees
+      <!-- // Request for length if zero to avoid error -->
       <span class="badge -fill-gradient">{{
         event.attendees ? event.attendees.length : 0
       }}</span>
